@@ -13,12 +13,8 @@ let jerry = {
 //BMI's
 let tomBMI = tom.mass / (tom.height * tom.height);
 let jerryBMI = jerry.mass / (jerry.height * jerry.height);
+let compare = jerryBMI > tomBMI;
 
-//Tests
-console.log(tomBMI);
-console.log(jerryBMI);
-
-//Result on who has a higher BMI
-if (tomBMI < jerryBMI) {
-    console.log("is Tom's BMI higher than Jerry's? false");
+if (compare = true) {
+    console.log("Jerry's BMI is higher than Toms BMI")
 }
